@@ -16,7 +16,7 @@ public class SampleActivity extends Activity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        VersionChecker.check("com.jiran.xkmonitor", "4.7.6", new VersionChecker.OnResponseListener() {
+        VersionChecker.check("com.google.android.googlequicksearchbox", "1.0.0", new VersionChecker.OnResponseListener() {
             @Override
             public void onResponse(boolean result, VersionCheckInfo info) {
                 if(result){
